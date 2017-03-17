@@ -1,0 +1,26 @@
+{
+  "name": "dojo-ideas",
+  "version": "1.0.0",
+  "description": "Boîte noire pour aller lire la partie projet de l'appli dojo-app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epfl-dojo/dojo-ideas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epfl-dojo/dojo-ideas/issues"
+  },
+  "homepage": "https://github.com/epfl-dojo/dojo-ideas#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "github-api": "^3.0.0"
+  }
+}
